@@ -30,3 +30,30 @@ const myFunction = function (){
 }
 
 console.log(typeof hero);
+
+//+++++++++++++++++++++++++++++++++++++++++++
+
+// stack (perimitive), heap(non-primitive)
+
+let myname = "kishan pandya"
+
+let anothername = myname
+anothername = "ved modi"
+
+console.log(myname);
+console.log(anothername);
+
+//coppy finding
+
+let userone = {
+    email: "kp@gmail.com",
+    upi:"kp@ybl"
+}
+
+let usertwo = userone
+usertwo.email= "ap@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
+// Reference finding
