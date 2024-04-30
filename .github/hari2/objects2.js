@@ -46,12 +46,36 @@ const users = [
    
 ]
 
-console.log(users[1].email)
+//console.log(users[1].email)
 
-console.log(tinderUser);
+//console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));  // given in array we can loop it 
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+//console.log(Object.keys(tinderUser));  // given in array we can loop it 
+//console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+//console.log(tinderUser.hasOwnProperty("isLogged"));
+
+const course = {
+    coursename : "js",
+    price: "10000",
+    instructur : "kishan pandya"
+}
+
+//course.coursename
+const {coursename:name} = course
+
+//console.log(coursename);
+console.log(name);
+
+//{
+    //"name": "kishan",
+    //"course" : "js",
+    //"price" : "free"
+//}
+
+[
+    {},
+    {},
+    {}
+]
