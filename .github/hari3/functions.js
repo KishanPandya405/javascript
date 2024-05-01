@@ -35,4 +35,34 @@ function userLoginMassage(username){
 }
 
 //console.log(userLoginMassage("kishan"));
-console.log(userLoginMassage());
+//console.log(userLoginMassage());
+
+function calculatCartPrice (val1, val2, ...num1){  //... rest/spread operator
+    return num1
+}
+
+console.log(calculatCartPrice(200, 400, 500, 2000));
+
+const user = {
+    username : "kishanpandya405@gmail.com",
+    age : 25
+}
+
+function handleObject (anyobject){
+    console.log(`username is ${anyobject.username} and age is ${anyobject.age}`);
+}
+//handleObject(user)
+
+handleObject({
+    username : "kp@g.com",
+    age : 24
+})
+
+const myNewArray = [100, 200, 300, 400]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([100, 200, 300, 400]));
